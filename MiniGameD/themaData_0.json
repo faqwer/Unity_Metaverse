@@ -1,0 +1,15 @@
+{
+  "themaBgURL":"./themaData_0/images/themaBg.jpg",
+  "lists":[
+    {
+      "eng":"Dog",
+      "imageURL":"./themaData_0/images/dog.jpg",
+      "soundURL":"./themaData_0/sounds/sample.mp3"
+    },
+    {
+      "eng":"Cat",
+      "imageURL":"./themaData_0/images/cat.jpg",
+      "soundURL":"./themaData_0/sounds/sample.mp3"
+    }
+  ]
+}
