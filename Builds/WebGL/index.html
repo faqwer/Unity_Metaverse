@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity_Metaverse</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <style>
+      #memory-monitor {
+        position: fixed;
+        top: 8px;
+        right: 8px;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.7);
+        color: #0f0;
+        font: 12px/1.4 monospace;
+        padding: 6px 10px;
+        border-radius: 4px;
+        pointer-events: none;
+        white-space: pre;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="unity-container">
+      <div id="unity-canvas-wrapper">
+        <canvas id="unity-canvas" tabindex="-1"></canvas>
+
+        <!-- 전체화면 버튼 (캔버스 우측 하단 오버레이) -->
+        <div id="unity-fullscreen-button"></div>
+
+        <!-- 로딩 바 (캔버스 중앙 오버레이) -->
+        <div id="unity-loading-bar">
+          <div id="unity-logo"></div>
+          <div id="unity-progress-bar-empty">
+            <div id="unity-progress-bar-full"></div>
+          </div>
+        </div>
+
+        <!-- 경고/에러 메시지 -->
+        <div id="unity-warning"></div>
+      </div>
+    </div>
+
+    <!-- 메모리 모니터 (URL에 ?debug=1 또는 ?mem=1 있을 때만 표시) -->
+    <div id="memory-monitor"></div>
+
+    <script>
+      var canvas  = document.querySelector("#unity-canvas");
+      var wrapper = document.querySelector("#unity-canvas-wrapper");
+
+      // 원본 해상도 (Player Settings 값을 빌드 시 자동 치환)
+      var NATIVE_W = 960;
+      var NATIVE_H = 600;
+
+      // 가로 기준으로 키우되, 세로가 뷰포트를 넘으면 세로 기준으로 전환
+      function resizeCanvas() {
+        // var aspect = NATIVE_W / NATIVE_H;
+        // var w = window.innerWidth;
+        // var h = Math.round(w / aspect);
+
+        // if (h > window.innerHeight) {
+        //   h = window.innerHeight;
+        //   w = Math.round(h * aspect);
+        // }
+
+        // wrapper.style.width  = w + "px";
+        // wrapper.style.height = h + "px";
+
+        wrapper.style.width  = "100%";
+        wrapper.style.height = "100%";
+      }
+
+      window.addEventListener("resize", resizeCanvas);
+      resizeCanvas();
+
+      // 경고 배너 표시 함수
+      function unityShowBanner(msg, type) {
+        var warningBanner = document.querySelector("#unity-warning");
+        function updateVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? "block" : "none";
+        }
+        var div = document.createElement("div");
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type === "error") {
+          div.style.cssText = "background: red; padding: 6px; border-radius: 3px; margin: 2px 0;";
+        } else {
+          if (type === "warning") {
+            div.style.cssText = "background: yellow; padding: 6px; border-radius: 3px; margin: 2px 0;";
+          }
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateVisibility();
+          }, 5000);
+        }
+        updateVisibility();
+      }
+
+      // URL 쿼리(?debug=1 또는 ?mem=1)일 때만 메모리 모니터 표시
+      function startMemoryMonitor(unityInstance) {
+        var params = new URLSearchParams(window.location.search);
+        if (!params.has("debug") && !params.has("mem")) return;
+
+        var el = document.querySelector("#memory-monitor");
+        el.style.display = "block";
+
+        var peak = 0;
+        function format(bytes) {
+          return (bytes / 1048576).toFixed(1) + " MB";
+        }
+        function update() {
+          var heap = 0;
+          try {
+            if (unityInstance.Module && unityInstance.Module.HEAPU8)
+              heap = unityInstance.Module.HEAPU8.byteLength;
+          } catch (e) {}
+          if (heap > peak) peak = heap;
+
+          var lines = ["Unity Heap: " + format(heap),
+                       "Peak:       " + format(peak)];
+
+          // Chrome/Edge 전용 (Safari는 미지원이라 표시 안됨)
+          if (performance && performance.memory) {
+            lines.push("JS Used:    " + format(performance.memory.usedJSHeapSize));
+            lines.push("JS Limit:   " + format(performance.memory.jsHeapSizeLimit));
+          }
+          el.textContent = lines.join("\n");
+        }
+        update();
+        setInterval(update, 1000);
+      }
+
+      var buildUrl = "Build";
+      var config = {
+        arguments:          [],
+        dataUrl:            buildUrl + "/WebGL.data.unityweb",
+        frameworkUrl:       buildUrl + "/WebGL.framework.js.unityweb",
+        codeUrl:            buildUrl + "/WebGL.wasm.unityweb",
+        streamingAssetsUrl: "",
+        companyName:        "DefaultCompany",
+        productName:        "Unity_Metaverse",
+        productVersion:     "0.1.0",
+        showBanner:         unityShowBanner,
+      };
+
+      document.querySelector("#unity-loading-bar").style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = buildUrl + "/WebGL.loader.js";
+      script.onload = function() {
+        createUnityInstance(canvas, config, function(progress) {
+          document.querySelector("#unity-progress-bar-full").style.width = (100 * progress) + "%";
+        }).then(function(unityInstance) {
+          document.querySelector("#unity-loading-bar").style.display = "none";
+          document.querySelector("#unity-fullscreen-button").onclick = function() {
+            unityInstance.SetFullscreen(1);
+          };
+          startMemoryMonitor(unityInstance);
+        }).catch(function(message) {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>
