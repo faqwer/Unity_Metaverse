@@ -1,0 +1,80 @@
+{
+  "themaBgURL": "./themaData_2/images/themaBg.jpg",
+  "lists": [
+    {
+      "eng": "Apple",
+      "imageURL": "./themaData_2/images/apple.jpg",
+      "soundURL": "./themaData_2/sounds/apple.mp3"
+    },
+    {
+      "eng": "Banana",
+      "imageURL": "./themaData_2/images/banana.jpg",
+      "soundURL": "./themaData_2/sounds/banana.mp3"
+    },
+    {
+      "eng": "Broccoli",
+      "imageURL": "./themaData_2/images/broccoli.jpg",
+      "soundURL": "./themaData_2/sounds/broccoli.mp3"
+    },
+    {
+      "eng": "Cabbage",
+      "imageURL": "./themaData_2/images/cabbage.jpg",
+      "soundURL": "./themaData_2/sounds/cabbage.mp3"
+    },
+    {
+      "eng": "Carrot",
+      "imageURL": "./themaData_2/images/carrot.jpg",
+      "soundURL": "./themaData_2/sounds/carrot.mp3"
+    },
+    {
+      "eng": "Cucumber",
+      "imageURL": "./themaData_2/images/cucumber.jpg",
+      "soundURL": "./themaData_2/sounds/cucumber.mp3"
+    },
+    {
+      "eng": "Grapes",
+      "imageURL": "./themaData_2/images/grapes.jpg",
+      "soundURL": "./themaData_2/sounds/grapes.mp3"
+    },
+    {
+      "eng": "Onion",
+      "imageURL": "./themaData_2/images/onion.jpg",
+      "soundURL": "./themaData_2/sounds/onion.mp3"
+    },
+    {
+      "eng": "Orange",
+      "imageURL": "./themaData_2/images/orange.jpg",
+      "soundURL": "./themaData_2/sounds/orange.mp3"
+    },
+    {
+      "eng": "Peach",
+      "imageURL": "./themaData_2/images/peach.jpg",
+      "soundURL": "./themaData_2/sounds/peach.mp3"
+    },
+    {
+      "eng": "Pear",
+      "imageURL": "./themaData_2/images/pear.jpg",
+      "soundURL": "./themaData_2/soundpears/.mp3"
+    },
+    {
+      "eng": "Pineapple",
+      "imageURL": "./themaData_2/images/pineapple.jpg",
+      "soundURL": "./themaData_2/sounds/pineapple.mp3"
+    },
+    {
+      "eng": "Potato",
+      "imageURL": "./themaData_2/images/potato.jpg",
+      "soundURL": "./themaData_2/sounds/potato.mp3"
+    },
+    {
+      "eng": "Strawberry",
+      "imageURL": "./themaData_2/images/strawberry.jpg",
+      "soundURL": "./themaData_2/sounds/strawberry.mp3"
+    },
+    {
+      "eng": "Tomato",
+      "imageURL": "./themaData_2/images/tomato.jpg",
+      "soundURL": "./themaData_2/sounds/tomato.mp3"
+    }
+  ]
+}

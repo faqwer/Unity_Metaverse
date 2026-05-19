@@ -1,15 +1,231 @@
+
 {
-  "themaBgURL":"./themaData_0/images/themaBg.jpg",
-  "lists":[
+  "themaBgURL": "./themaData_0/images/themaBg.jpg",
+  "lists": [
     {
-      "eng":"Dog",
-      "imageURL":"./themaData_0/images/dog.jpg",
-      "soundURL":"./themaData_0/sounds/dog.mp3"
+      "eng": "Bee",
+      "imageURL": "./themaData_0/images/bee.jpg",
+      "soundURL": "./themaData_0/sounds/bee.mp3"
     },
     {
-      "eng":"Cat",
-      "imageURL":"./themaData_0/images/cat.jpg",
-      "soundURL":"./themaData_0/sounds/cat.mp3"
+      "eng": "Cat",
+      "imageURL": "./themaData_0/images/cat.jpg",
+      "soundURL": "./themaData_0/sounds/cat.mp3"
+    },
+    {
+      "eng": "Rooster",
+      "imageURL": "./themaData_0/images/rooster.jpg",
+      "soundURL": "./themaData_0/sounds/rooster.mp3"
+    },
+    {
+      "eng": "Cow",
+      "imageURL": "./themaData_0/images/cow.jpg",
+      "soundURL": "./themaData_0/sounds/cow.mp3"
+    },
+    {
+      "eng": "Dog",
+      "imageURL": "./themaData_0/images/dog.jpg",
+      "soundURL": "./themaData_0/sounds/dog.mp3"
+    },
+    {
+      "eng": "Duck",
+      "imageURL": "./themaData_0/images/duck.jpg",
+      "soundURL": "./themaData_0/sounds/duck.mp3"
+    },
+    {
+      "eng": "Frog",
+      "imageURL": "./themaData_0/images/frog.jpg",
+      "soundURL": "./themaData_0/sounds/frog.mp3"
+    },
+    {
+      "eng": "Horse",
+      "imageURL": "./themaData_0/images/horse.jpg",
+      "soundURL": "./themaData_0/sounds/horse.mp3"
+    },
+    {
+      "eng": "Lion",
+      "imageURL": "./themaData_0/images/lion.jpg",
+      "soundURL": "./themaData_0/sounds/lion.mp3"
+    },
+    {
+      "eng": "Mouse",
+      "imageURL": "./themaData_0/images/mouse.jpg",
+      "soundURL": "./themaData_0/sounds/mouse.mp3"
+    },
+    {
+      "eng": "Pig",
+      "imageURL": "./themaData_0/images/pig.jpg",
+      "soundURL": "./themaData_0/sounds/pig.mp3"
+    },
+    {
+      "eng": "Pigeon",
+      "imageURL": "./themaData_0/images/pigeon.jpg",
+      "soundURL": "./themaData_0/sounds/pigeon.mp3"
+    },
+    {
+      "eng": "Sheep",
+      "imageURL": "./themaData_0/images/sheep.jpg",
+      "soundURL": "./themaData_0/sounds/sheep.mp3"
+    },
+    {
+      "eng": "Snake",
+      "imageURL": "./themaData_0/images/snake.jpg",
+      "soundURL": "./themaData_0/sounds/snake.mp3"
+    },
+    {
+      "eng": "Tiger",
+      "imageURL": "./themaData_0/images/tiger.jpg",
+      "soundURL": "./themaData_0/sounds/tiger.mp3"
+    },
+    {
+      "eng": "Parrot",
+      "imageURL": "./themaData_0/images/parrot.jpg",
+      "soundURL": "./themaData_0/sounds/parrot.mp3"
+    },
+    {
+      "eng": "Sparrow",
+      "imageURL": "./themaData_0/images/sparrow.jpg",
+      "soundURL": "./themaData_0/sounds/sparrow.mp3"
+    },
+    {
+      "eng": "Crow",
+      "imageURL": "./themaData_0/images/crow.jpg",
+      "soundURL": "./themaData_0/sounds/crow.mp3"
+    },
+    {
+      "eng": "Seagull",
+      "imageURL": "./themaData_0/images/seagull.jpg",
+      "soundURL": "./themaData_0/sounds/seagull.mp3"
+    },
+    {
+      "eng": "Pelican",
+      "imageURL": "./themaData_0/images/pelican.jpg",
+      "soundURL": "./themaData_0/sounds/pelican.mp3"
+    },
+    {
+      "eng": "Woodpecker",
+      "imageURL": "./themaData_0/images/woodpecker.jpg",
+      "soundURL": "./themaData_0/sounds/woodpecker.mp3"
+    },
+    {
+      "eng": "Hummingbird",
+      "imageURL": "./themaData_0/images/hummingbird.jpg",
+      "soundURL": "./themaData_0/sounds/hummingbird.mp3"
+    },
+    {
+      "eng": "Blue jay",
+      "imageURL": "./themaData_0/images/blue_Jay.jpg",
+      "soundURL": "./themaData_0/sounds/blue_Jay.mp3"
+    },
+    {
+      "eng": "Nightingale",
+      "imageURL": "./themaData_0/images/nightingale.jpg",
+      "soundURL": "./themaData_0/sounds/nightingale.mp3"
+    },
+    {
+      "eng": "Bat",
+      "imageURL": "./themaData_0/images/bat.jpg",
+      "soundURL": "./themaData_0/sounds/bat.mp3"
+    },
+    {
+      "eng": "Swan",
+      "imageURL": "./themaData_0/images/swan.jpg",
+      "soundURL": "./themaData_0/sounds/swan.mp3"
+    },
+    {
+      "eng": "Flamingo",
+      "imageURL": "./themaData_0/images/flamingo.jpg",
+      "soundURL": "./themaData_0/sounds/flamingo.mp3"
+    },
+    {
+      "eng": "Toucan",
+      "imageURL": "./themaData_0/images/toucan.jpg",
+      "soundURL": "./themaData_0/sounds/toucan.mp3"
+    },
+    {
+      "eng": "Eagle",
+      "imageURL": "./themaData_0/images/eagle.jpg",
+      "soundURL": "./themaData_0/sounds/eagle.mp3"
+    },
+    {
+      "eng": "Owl",
+      "imageURL": "./themaData_0/images/owl.jpg",
+      "soundURL": "./themaData_0/sounds/owl.mp3"
+    },
+    {
+      "eng": "Clam",
+      "imageURL": "./themaData_0/images/clam.jpg",
+      "soundURL": "./themaData_0/sounds/clam.mp3"
+    },
+    {
+      "eng": "Crab",
+      "imageURL": "./themaData_0/images/crab.jpg",
+      "soundURL": "./themaData_0/sounds/crab.mp3"
+    },
+    {
+      "eng": "Dolphin",
+      "imageURL": "./themaData_0/images/dolphin.jpg",
+      "soundURL": "./themaData_0/sounds/dolphin.mp3"
+    },
+    {
+      "eng": "Flying fish",
+      "imageURL": "./themaData_0/images/flying_fish.jpg",
+      "soundURL": "./themaData_0/sounds/flying_fish.mp3"
+    },
+    {
+      "eng": "Jellyfish",
+      "imageURL": "./themaData_0/images/jellyfish.jpg",
+      "soundURL": "./themaData_0/sounds/jellyfish.mp3"
+    },
+    {
+      "eng": "Manta ray",
+      "imageURL": "./themaData_0/images/manta_ray.jpg",
+      "soundURL": "./themaData_0/sounds/manta_ray.mp3"
+    },
+    {
+      "eng": "Octopus",
+      "imageURL": "./themaData_0/images/octopus.jpg",
+      "soundURL": "./themaData_0/sounds/octopus.mp3"
+    },
+    {
+      "eng": "Seahorse",
+      "imageURL": "./themaData_0/images/seahorse.jpg",
+      "soundURL": "./themaData_0/sounds/seahorse.mp3"
+    },
+    {
+      "eng": "Seal",
+      "imageURL": "./themaData_0/images/seal.jpg",
+      "soundURL": "./themaData_0/sounds/seal.mp3"
+    },
+    {
+      "eng": "Shark",
+      "imageURL": "./themaData_0/images/shark.jpg",
+      "soundURL": "./themaData_0/sounds/shark.mp3"
+    },
+    {
+      "eng": "Shrimp",
+      "imageURL": "./themaData_0/images/shrimp.jpg",
+      "soundURL": "./themaData_0/sounds/shrimp.mp3"
+    },
+    {
+      "eng": "Squid",
+      "imageURL": "./themaData_0/images/squid.jpg",
+      "soundURL": "./themaData_0/sounds/squid.mp3"
+    },
+    {
+      "eng": "Starfish",
+      "imageURL": "./themaData_0/images/starfish.jpg",
+      "soundURL": "./themaData_0/sounds/starfish.mp3"
+    },
+    {
+      "eng": "Turtle",
+      "imageURL": "./themaData_0/images/turtle.jpg",
+      "soundURL": "./themaData_0/sounds/turtle.mp3"
+    },
+    {
+      "eng": "Whale",
+      "imageURL": "./themaData_0/images/whale.jpg",
+      "soundURL": "./themaData_0/sounds/whale.mp3"
     }
   ]
 }

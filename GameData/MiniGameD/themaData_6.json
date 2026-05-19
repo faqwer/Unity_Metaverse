@@ -1,0 +1,75 @@
+{
+  "themaBgURL": "./themaData_6/images/themaBg.jpg",
+  "lists": [
+    {
+      "eng": "Bakery",
+      "imageURL": "./themaData_6/images/bakery.jpg",
+      "soundURL": "./themaData_6/sounds/bakery.mp3"
+    },
+    {
+      "eng": "Bank",
+      "imageURL": "./themaData_6/images/bank.jpg",
+      "soundURL": "./themaData_6/sounds/bank.mp3"
+    },
+    {
+      "eng": "Bus stop",
+      "imageURL": "./themaData_6/images/bus_stop.jpg",
+      "soundURL": "./themaData_6/sounds/bus_stop.mp3"
+    },
+    {
+      "eng": "Fire station",
+      "imageURL": "./themaData_6/images/fire_station.jpg",
+      "soundURL": "./themaData_6/sounds/fire_station.mp3"
+    },
+    {
+      "eng": "Hospital",
+      "imageURL": "./themaData_6/images/hospital.jpg",
+      "soundURL": "./themaData_6/sounds/hospital.mp3"
+    },
+    {
+      "eng": "Library",
+      "imageURL": "./themaData_6/images/library.jpg",
+      "soundURL": "./themaData_6/sounds/library.mp3"
+    },
+    {
+      "eng": "Museum",
+      "imageURL": "./themaData_6/images/museum.jpg",
+      "soundURL": "./themaData_6/sounds/museum.mp3"
+    },
+    {
+      "eng": "Park",
+      "imageURL": "./themaData_6/images/park.jpg",
+      "soundURL": "./themaData_6/sounds/park.mp3"
+    },
+    {
+      "eng": "Police office",
+      "imageURL": "./themaData_6/images/police_office.jpg",
+      "soundURL": "./themaData_6/sounds/police_office.mp3"
+    },
+    {
+      "eng": "Post office",
+      "imageURL": "./themaData_6/images/post_office.jpg",
+      "soundURL": "./themaData_6/sounds/post_office.mp3"
+    },
+    {
+      "eng": "Restaurant",
+      "imageURL": "./themaData_6/images/restaurant.jpg",
+      "soundURL": "./themaData_6/sounds/restaurant.mp3"
+    },
+    {
+      "eng": "School",
+      "imageURL": "./themaData_6/images/school.jpg",
+      "soundURL": "./themaData_6/sounds/school.mp3"
+    },
+    {
+      "eng": "Supermarket",
+      "imageURL": "./themaData_6/images/supermarket.jpg",
+      "soundURL": "./themaData_6/sounds/supermarket.mp3"
+    },
+    {
+      "eng": "Theater",
+      "imageURL": "./themaData_6/images/theater.jpg",
+      "soundURL": "./themaData_6/sounds/theater.mp3"
+    }
+  ]
+}

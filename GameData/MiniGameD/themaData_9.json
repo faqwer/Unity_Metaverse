@@ -1,0 +1,85 @@
+{
+  "themaBgURL": "./themaData_9/images/themaBg.jpg",
+  "lists": [
+    {
+      "eng": "Head",
+      "imageURL": "./themaData_9/images/head.jpg",
+      "soundURL": "./themaData_9/sounds/head.mp3"
+    },
+    {
+      "eng": "Hairdresser",
+      "imageURL": "./themaData_9/images/hairdresser.jpg",
+      "soundURL": "./themaData_9/sounds/hairdresser.mp3"
+    },
+    {
+      "eng": "Ears",
+      "imageURL": "./themaData_9/images/ears.jpg",
+      "soundURL": "./themaData_9/sounds/ears.mp3"
+    },
+    {
+      "eng": "Eyes",
+      "imageURL": "./themaData_9/images/eyes.jpg",
+      "soundURL": "./themaData_9/sounds/eyes.mp3"
+    },
+    {
+      "eng": "Nose",
+      "imageURL": "./themaData_9/images/nose.jpg",
+      "soundURL": "./themaData_9/sounds/nose.mp3"
+    },
+    {
+      "eng": "Mouth",
+      "imageURL": "./themaData_9/images/mouth.jpg",
+      "soundURL": "./themaData_9/sounds/mouth.mp3"
+    },
+    {
+      "eng": "Teeth",
+      "imageURL": "./themaData_9/images/teeth.jpg",
+      "soundURL": "./themaData_9/sounds/teeth.mp3"
+    },
+    {
+      "eng": "Tongue",
+      "imageURL": "./themaData_9/images/tongue.jpg",
+      "soundURL": "./themaData_9/sounds/tongue.mp3"
+    },
+    {
+      "eng": "Neck",
+      "imageURL": "./themaData_9/images/neck.jpg",
+      "soundURL": "./themaData_9/sounds/neck.mp3"
+    },
+    {
+      "eng": "Shoulders",
+      "imageURL": "./themaData_9/images/shoulders.jpg",
+      "soundURL": "./themaData_9/sounds/shoulders.mp3"
+    },
+    {
+      "eng": "Stomach",
+      "imageURL": "./themaData_9/images/stomach.jpg",
+      "soundURL": "./themaData_9/sounds/stomach.mp3"
+    },
+    {
+      "eng": "Hips",
+      "imageURL": "./themaData_9/images/hips.jpg",
+      "soundURL": "./themaData_9/sounds/hips.mp3"
+    },
+    {
+      "eng": "Arms",
+      "imageURL": "./themaData_9/images/arms.jpg",
+      "soundURL": "./themaData_9/sounds/arms.mp3"
+    },
+    {
+      "eng": "Hands",
+      "imageURL": "./themaData_9/images/hands.jpg",
+      "soundURL": "./themaData_9/sounds/hands.mp3"
+    },
+    {
+      "eng": "Legs",
+      "imageURL": "./themaData_9/images/legs.jpg",
+      "soundURL": "./themaData_9/sounds/legs.mp3"
+    },
+    {
+      "eng": "Feet",
+      "imageURL": "./themaData_9/images/feet.jpg",
+      "soundURL": "./themaData_9/sounds/feet.mp3"
+    }
+  ]
+}

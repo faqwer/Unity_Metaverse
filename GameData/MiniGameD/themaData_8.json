@@ -1,0 +1,65 @@
+{
+  "themaBgURL": "./themaData_8/images/themaBg.jpg",
+  "lists": [
+    {
+      "eng": "Circle",
+      "imageURL": "./themaData_8/images/circle.jpg",
+      "soundURL": "./themaData_8/sounds/circle.mp3"
+    },
+    {
+      "eng": "Triangle",
+      "imageURL": "./themaData_8/images/triangle.jpg",
+      "soundURL": "./themaData_8/sounds/triangle.mp3"
+    },
+    {
+      "eng": "Square",
+      "imageURL": "./themaData_8/images/square.jpg",
+      "soundURL": "./themaData_8/sounds/square.mp3"
+    },
+    {
+      "eng": "Rectangle",
+      "imageURL": "./themaData_8/images/rectangle.jpg",
+      "soundURL": "./themaData_8/sounds/rectangle.mp3"
+    },
+    {
+      "eng": "Pentagon",
+      "imageURL": "./themaData_8/images/pentagon.jpg",
+      "soundURL": "./themaData_8/sounds/pentagon.mp3"
+    },
+    {
+      "eng": "Hexagone",
+      "imageURL": "./themaData_8/images/hexagone.jpg",
+      "soundURL": "./themaData_8/sounds/hexagone.mp3"
+    },
+    {
+      "eng": "Arrow",
+      "imageURL": "./themaData_8/images/arrow.jpg",
+      "soundURL": "./themaData_8/sounds/arrow.mp3"
+    },
+    {
+      "eng": "Crescent",
+      "imageURL": "./themaData_8/images/crescent.jpg",
+      "soundURL": "./themaData_8/sounds/crescent.mp3"
+    },
+    {
+      "eng": "Cross",
+      "imageURL": "./themaData_8/images/cross.jpg",
+      "soundURL": "./themaData_8/sounds/cross.mp3"
+    },
+    {
+      "eng": "Diamond",
+      "imageURL": "./themaData_8/images/diamond.jpg",
+      "soundURL": "./themaData_8/sounds/diamond.mp3"
+    },
+    {
+      "eng": "Heart",
+      "imageURL": "./themaData_8/images/heart.jpg",
+      "soundURL": "./themaData_8/sounds/heart.mp3"
+    },
+    {
+      "eng": "Star",
+      "imageURL": "./themaData_8/images/star.jpg",
+      "soundURL": "./themaData_8/sounds/star.mp3"
+    }
+  ]
+}

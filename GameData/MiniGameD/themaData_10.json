@@ -1,0 +1,55 @@
+{
+  "themaBgURL": "./themaData_10/images/themaBg.jpg",
+  "lists": [
+    {
+      "eng": "One",
+      "imageURL": "./themaData_10/images/one.jpg",
+      "soundURL": "./themaData_10/sounds/one.mp3"
+    },
+    {
+      "eng": "Two",
+      "imageURL": "./themaData_10/images/two.jpg",
+      "soundURL": "./themaData_10/sounds/two.mp3"
+    },
+    {
+      "eng": "Three",
+      "imageURL": "./themaData_10/images/three.jpg",
+      "soundURL": "./themaData_10/sounds/three.mp3"
+    },
+    {
+      "eng": "Four",
+      "imageURL": "./themaData_10/images/four.jpg",
+      "soundURL": "./themaData_10/sounds/four.mp3"
+    },
+    {
+      "eng": "Five",
+      "imageURL": "./themaData_10/images/five.jpg",
+      "soundURL": "./themaData_10/sounds/five.mp3"
+    },
+    {
+      "eng": "Six",
+      "imageURL": "./themaData_10/images/six.jpg",
+      "soundURL": "./themaData_10/sounds/six.mp3"
+    },
+    {
+      "eng": "Seven",
+      "imageURL": "./themaData_10/images/seven.jpg",
+      "soundURL": "./themaData_10/sounds/seven.mp3"
+    },
+    {
+      "eng": "Eight",
+      "imageURL": "./themaData_10/images/eight.jpg",
+      "soundURL": "./themaData_10/sounds/eight.mp3"
+    },
+    {
+      "eng": "Nine ",
+      "imageURL": "./themaData_10/images/nine .jpg",
+      "soundURL": "./themaData_10/sounds/nine .mp3"
+    },
+    {
+      "eng": "Ten",
+      "imageURL": "./themaData_10/images/ten.jpg",
+      "soundURL": "./themaData_10/sounds/ten.mp3"
+    }
+  ]
+}

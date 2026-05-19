@@ -1,38 +1,58 @@
 {
   "themaLists": [
     {
-      "thema": "animal",
+      "thema": "Animal",
       "themaImageURL": "./themaData_0/images/themaBtn.jpg",
       "themaDataURL": "./themaData_0.json"
     },
     {
-      "thema": "animal",
-      "themaImageURL": "./themaData_0/images/themaBtn.jpg",
+      "thema": "Food",
+      "themaImageURL": "./themaData_1/images/themaBtn.jpg",
       "themaDataURL": "./themaData_0.json"
     },
     {
-      "thema": "animal",
-      "themaImageURL": "./themaData_0/images/themaBtn.jpg",
+      "thema": "Fruit & Vegetables",
+      "themaImageURL": "./themaData_2/images/themaBtn.jpg",
       "themaDataURL": "./themaData_0.json"
     },
     {
-      "thema": "animal",
-      "themaImageURL": "./themaData_0/images/themaBtn.jpg",
+      "thema": "Transportation",
+      "themaImageURL": "./themaData_3/images/themaBtn.jpg",
       "themaDataURL": "./themaData_0.json"
     },
     {
-      "thema": "animal",
-      "themaImageURL": "./themaData_0/images/themaBtn.jpg",
+      "thema": "Feelings",
+      "themaImageURL": "./themaData_4/images/themaBtn.jpg",
       "themaDataURL": "./themaData_0.json"
     },
     {
-      "thema": "animal",
-      "themaImageURL": "./themaData_0/images/themaBtn.jpg",
+      "thema": "Job",
+      "themaImageURL": "./themaData_5/images/themaBtn.jpg",
       "themaDataURL": "./themaData_0.json"
     },
     {
-      "thema": "animal",
-      "themaImageURL": "./themaData_0/images/themaBtn.jpg",
+      "thema": "Town",
+      "themaImageURL": "./themaData_6/images/themaBtn.jpg",
+      "themaDataURL": "./themaData_0.json"
+    },
+    {
+      "thema": "Family",
+      "themaImageURL": "./themaData_7/images/themaBtn.jpg",
+      "themaDataURL": "./themaData_0.json"
+    },
+    {
+      "thema": "Shape",
+      "themaImageURL": "./themaData_8/images/themaBtn.jpg",
+      "themaDataURL": "./themaData_0.json"
+    },
+    {
+      "thema": "Body",
+      "themaImageURL": "./themaData_9/images/themaBtn.jpg",
+      "themaDataURL": "./themaData_0.json"
+    },
+    {
+      "thema": "Number",
+      "themaImageURL": "./themaData_10/images/themaBtn.jpg",
       "themaDataURL": "./themaData_0.json"
     }
   ]

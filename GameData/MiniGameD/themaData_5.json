@@ -1,0 +1,75 @@
+{
+  "themaBgURL": "./themaData_5/images/themaBg.jpg",
+  "lists": [
+    {
+      "eng": "Artist",
+      "imageURL": "./themaData_5/images/artist.jpg",
+      "soundURL": "./themaData_5/sounds/artist.mp3"
+    },
+    {
+      "eng": "Carpenter",
+      "imageURL": "./themaData_5/images/carpenter.jpg",
+      "soundURL": "./themaData_5/sounds/carpenter.mp3"
+    },
+    {
+      "eng": "Cook",
+      "imageURL": "./themaData_5/images/cook.jpg",
+      "soundURL": "./themaData_5/sounds/cook.mp3"
+    },
+    {
+      "eng": "Doctor",
+      "imageURL": "./themaData_5/images/doctor.jpg",
+      "soundURL": "./themaData_5/sounds/doctor.mp3"
+    },
+    {
+      "eng": "Engineer",
+      "imageURL": "./themaData_5/images/engineer.jpg",
+      "soundURL": "./themaData_5/sounds/engineer.mp3"
+    },
+    {
+      "eng": "Farmer",
+      "imageURL": "./themaData_5/images/farmer.jpg",
+      "soundURL": "./themaData_5/sounds/farmer.mp3"
+    },
+    {
+      "eng": "Fire fighter",
+      "imageURL": "./themaData_5/images/fire_fighter.jpg",
+      "soundURL": "./themaData_5/sounds/fire_fighter.mp3"
+    },
+    {
+      "eng": "Hairdresser",
+      "imageURL": "./themaData_5/images/hairdresser.jpg",
+      "soundURL": "./themaData_5/sounds/hairdresser.mp3"
+    },
+    {
+      "eng": "Pilot",
+      "imageURL": "./themaData_5/images/pilot.jpg",
+      "soundURL": "./themaData_5/sounds/pilot.mp3"
+    },
+    {
+      "eng": "Police officer",
+      "imageURL": "./themaData_5/images/police_officer.jpg",
+      "soundURL": "./themaData_5/sounds/police_officer.mp3"
+    },
+    {
+      "eng": "Scientist",
+      "imageURL": "./themaData_5/images/scientist.jpg",
+      "soundURL": "./themaData_5/sounds/scientist.mp3"
+    },
+    {
+      "eng": "Singer",
+      "imageURL": "./themaData_5/images/singer.jpg",
+      "soundURL": "./themaData_5/sounds/singer.mp3"
+    },
+    {
+      "eng": "Teacher",
+      "imageURL": "./themaData_5/images/teacher.jpg",
+      "soundURL": "./themaData_5/sounds/teacher.mp3"
+    },
+    {
+      "eng": "Vet",
+      "imageURL": "./themaData_5/images/vet.jpg",
+      "soundURL": "./themaData_5/sounds/vet.mp3"
+    }
+  ]
+}
