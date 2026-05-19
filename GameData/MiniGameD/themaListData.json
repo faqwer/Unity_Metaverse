@@ -5,77 +5,88 @@
       "themaImageURL": "./themaData_0/images/themaBtn.png",
       "themaDataURL": "./themaData_0.json",
       "locked": false, 
-      "lockType": ""
+      "lockType": "",
+      "isPremium": false
     },
     {
       "thema": "Food",
       "themaImageURL": "./themaData_1/images/themaBtn.png",
       "themaDataURL": "./themaData_1.json",
       "locked": true, 
-      "lockType": "dev"
+      "lockType": "dev",
+      "isPremium": false
     },
     {
       "thema": "Fruit & Vegetables",
       "themaImageURL": "./themaData_2/images/themaBtn.png",
       "themaDataURL": "./themaData_2.json",
       "locked": true, 
-      "lockType": "premium"
+      "lockType": "premium",
+      "isPremium": true
     },
     {
       "thema": "Transportation",
       "themaImageURL": "./themaData_3/images/themaBtn.png",
       "themaDataURL": "./themaData_3.json",
       "locked": true, 
-      "lockType": "premium"
+      "lockType": "premium",
+      "isPremium": true
     },
     {
       "thema": "Feelings",
       "themaImageURL": "./themaData_4/images/themaBtn.png",
       "themaDataURL": "./themaData_4.json",
       "locked": true, 
-      "lockType": "premium"
+      "lockType": "premium",
+      "isPremium": true
     },
     {
       "thema": "Job",
       "themaImageURL": "./themaData_5/images/themaBtn.png",
       "themaDataURL": "./themaData_5.json",
       "locked": true, 
-      "lockType": "premium"
+      "lockType": "premium",
+      "isPremium": true
     },
     {
       "thema": "Town",
       "themaImageURL": "./themaData_6/images/themaBtn.png",
       "themaDataURL": "./themaData_6.json",
       "locked": true, 
-      "lockType": "premium"
+      "lockType": "premium",
+      "isPremium": true
     },
     {
       "thema": "Family",
       "themaImageURL": "./themaData_7/images/themaBtn.png",
       "themaDataURL": "./themaData_7.json",
       "locked": true, 
-      "lockType": "premium"
+      "lockType": "premium",
+      "isPremium": true
     },
     {
       "thema": "Shape",
       "themaImageURL": "./themaData_8/images/themaBtn.png",
       "themaDataURL": "./themaData_8.json",
       "locked": true, 
-      "lockType": "premium"
+      "lockType": "premium",
+      "isPremium": true
     },
     {
       "thema": "Body",
       "themaImageURL": "./themaData_9/images/themaBtn.png",
       "themaDataURL": "./themaData_9.json",
       "locked": true, 
-      "lockType": "premium"
+      "lockType": "premium",
+      "isPremium": true
     },
     {
       "thema": "Number",
       "themaImageURL": "./themaData_10/images/themaBtn.png",
       "themaDataURL": "./themaData_10.json",
       "locked": true, 
-      "lockType": "premium"
+      "lockType": "premium",
+      "isPremium": true
     }
   ]
 }
