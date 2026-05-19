@@ -1,5 +1,12 @@
 {
   "themaBgURL": "./themaData_8/images/themaBg.png",
+  "themaIcon": {
+    "URL": "./themaData_8/images/themaIcon.png",
+    "data": {
+      "w": "381",
+      "h": "204"
+    }
+  },
   "lists": [
     {
       "eng": "Circle",

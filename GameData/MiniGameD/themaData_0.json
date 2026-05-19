@@ -1,6 +1,13 @@
 
 {
   "themaBgURL": "./themaData_0/images/themaBg.png",
+  "themaIcon": {
+    "URL": "./themaData_0/images/themaIcon.png",
+    "data": {
+      "w": "381",
+      "h": "204"
+    }
+  },
   "lists": [
     {
       "eng": "Bee",

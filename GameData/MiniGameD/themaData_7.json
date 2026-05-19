@@ -1,5 +1,12 @@
 {
   "themaBgURL": "./themaData_7/images/themaBg.png",
+  "themaIcon": {
+    "URL": "./themaData_7/images/themaIcon.png",
+    "data": {
+      "w": "381",
+      "h": "204"
+    }
+  },
   "lists": [
     {
       "eng": "Grandfather",
