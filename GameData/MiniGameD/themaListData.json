@@ -73,7 +73,7 @@
     {
       "thema": "Number",
       "themaImageURL": "./themaData_10/images/themaBtn.png",
-      "themaDataURL": "./themaData_0.themaData_10",
+      "themaDataURL": "./themaData_10.json",
       "locked": true, 
       "lockType": "premium"
     }
