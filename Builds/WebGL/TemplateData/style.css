@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+/* 뷰포트 전체를 채우며 wrapper를 가운데 정렬 */
+#unity-container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* JS로 width/height 제어 — canvas는 이 안에서 100% 채움 */
+#unity-canvas-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* wrapper를 100% 채움 — 크기는 wrapper가 결정 */
+#unity-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #231F20;
+}
+
+/* 전체화면 버튼: 캔버스 우측 하단에 오버레이 */
+#unity-fullscreen-button {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  background: url('fullscreen-button.png') no-repeat center / contain;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  z-index: 10;
+}
+
+#unity-fullscreen-button:hover {
+  opacity: 1;
+}
+
+/* 로딩 바: 캔버스 중앙에 오버레이 */
+#unity-loading-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  pointer-events: none;
+}
+
+#unity-logo {
+  width: 154px;
+  height: 130px;
+  background: url('unity-logo-dark.png') no-repeat center;
+}
+
+#unity-progress-bar-empty {
+  width: 141px;
+  height: 18px;
+  margin-top: 10px;
+  margin-left: 6.5px;
+  background: url('progress-bar-empty-dark.png') no-repeat center;
+}
+
+#unity-progress-bar-full {
+  width: 0%;
+  height: 18px;
+  background: url('progress-bar-full-dark.png') no-repeat center;
+}
+
+/* 경고 메시지: 캔버스 상단에 오버레이 */
+#unity-warning {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 10px;
+  display: none;
+  z-index: 20;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
